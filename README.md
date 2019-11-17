@@ -24,6 +24,8 @@ If you prefer to install it only locally for the user:
 $ pip3 install pycryptodome --user
 ```
 
+The practice of [padding](https://en.wikipedia.org/wiki/Padding_(cryptography)) is being used, because the `key_to_english` function have a limitation - [the length of the input data must be a multiple of 8](https://pycryptodome.readthedocs.io/en/latest/src/util/util.html#Crypto.Util.RFC1751.key_to_english).
+
 Example
 =======
 
