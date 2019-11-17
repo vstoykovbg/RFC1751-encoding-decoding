@@ -4,11 +4,11 @@ Python scripts for encoding arbitrary data to human-readable list of words and d
 
 Other practical methods for [binary-to-text encoding](https://en.wikipedia.org/wiki/Binary-to-text_encoding) are base58, base64. PGP's ASCII armor is based on base64. It have problems with using similar-looking symbols like zero and O, small L (l) and big I.
 
-[RFC1751](https://tools.ietf.org/html/rfc1751) is a predecessor of [BIP39 mnemonic seed phrases](https://en.bitcoin.it/wiki/Seed_phrase).
+[RFC1751](https://tools.ietf.org/html/rfc1751) is a predecessor of the [BIP39 mnemonic seed phrases](https://en.bitcoin.it/wiki/Seed_phrase).
 
 The RFC1751 wordlist is optimized by the size of the words (short words are preferred, biggest words are with 4 letters).
 
-The BIP39 wordlist consists of bigger words, they are optimized to make it difficult to confuse two words with each other (his is why longer words are used, despite that only first 4 letters are enough to recover the key - you can technically write only the first 4 letters, although this is not recommended).
+The BIP39 wordlist consists of bigger words, they are optimized to make it difficult to confuse two words with each other (this is why longer words are used, despite that only first 4 letters are enough to recover the key - you can technically write only the first 4 letters, although this is not recommended).
 
 Example
 =======
