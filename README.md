@@ -12,6 +12,18 @@ The BIP39 wordlist consists of bigger words, they are optimized to make it diffi
 
 Don't forget that the written words will be visible on the bottom page, so don't write on a notebook, put the sheet of paper on a hard surface instead. For longevity use pencil instead of pen and right type of paper. Or write with pen and pencil (separately), just in case (the pencil's writing can be erased by rubbing, the pen's writing can be damaged by water). Don't forget the backups.
 
+You need to install [pycryptodome](https://pycryptodome.readthedocs.io/en/latest/src/installation.html) in order to use the scripts. For example, on Debian-based distributions you can type:
+
+```
+$ sudo apt-get install python3-pycryptodome
+```
+
+If you prefer to install it only locally for the user:
+
+```
+$ pip3 install pycryptodome --user
+```
+
 Example
 =======
 
