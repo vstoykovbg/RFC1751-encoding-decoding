@@ -8,7 +8,7 @@ Other practical methods for [binary-to-text encoding](https://en.wikipedia.org/w
 
 The RFC1751 wordlist is optimized by the size of the words (short words are preferred, biggest words are with 4 letters).
 
-The BIP39 wordlist consists of bigger words, they are optimized to make it difficult to confuse two words with each other (his is why longer words are used, despite that only first 4 letters are enougth to recover the key - you can technically write only the first 4 letters, although this is not recommended).
+The BIP39 wordlist consists of bigger words, they are optimized to make it difficult to confuse two words with each other (his is why longer words are used, despite that only first 4 letters are enough to recover the key - you can technically write only the first 4 letters, although this is not recommended).
 
 Example
 =======
