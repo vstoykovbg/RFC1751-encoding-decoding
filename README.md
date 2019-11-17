@@ -10,6 +10,8 @@ The RFC1751 wordlist is optimized by the size of the words (short words are pref
 
 The BIP39 wordlist consists of bigger words, they are optimized to make it difficult to confuse two words with each other (this is why longer words are used, despite that only first 4 letters are enough to recover the key - you can technically write only the first 4 letters, although this is not recommended).
 
+Don't forget that the written words will be visible on the bottom page, so don't write on a notebook, put the sheet of paper on a hard surface instead. For longevity use pencil instead of pen and right type of paper. Or write with pen and pencil (separately), just in case (the pencil's writing can be erased by rubbing, the pen's writing can be damaged by water). Don't forget the backups.
+
 Example
 =======
 
