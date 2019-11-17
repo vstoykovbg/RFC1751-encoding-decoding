@@ -13,7 +13,7 @@ The BIP39 wordlist consists of bigger words, they are optimized to make it diffi
 Example
 =======
 
-Creating random file with 128 bytes:
+Creating a file with 128 random bytes:
 
 ```
 $ dd if=/dev/urandom of=random.dat bs=128 count=1
