@@ -2,7 +2,7 @@
 
 Python scripts for encoding arbitrary data to human-readable list of words and decoding it. They are useful when transferring keys from/to air-gapped computers with keyboard and monitor, and also writing the keys on paper by hand or with printer.
 
-Other practical methods for [binary-to-text encoding](https://en.wikipedia.org/wiki/Binary-to-text_encoding) are base58, base64. PGP's ASCII armor is based on base64. It have problems with using similar-looking symbols like zero and O, small L (l) and big I.
+Other practical methods for [binary-to-text encoding](https://en.wikipedia.org/wiki/Binary-to-text_encoding) are base58, base64. PGP's ASCII armor is based on base64. It have problems with using similar-looking symbols like zero and O, small L (l) and big I. This encoding method can be improved [by replacing the problematic characters with other, looking differently](https://github.com/vstoykovbg/ASCII-armor-enhancer/).
 
 [RFC1751](https://tools.ietf.org/html/rfc1751) is a predecessor of the [BIP39 mnemonic seed phrases](https://en.bitcoin.it/wiki/Seed_phrase).
 
